@@ -1,8 +1,8 @@
 hubot-yo
---------
+===
 
 Zero character hubot communication
-==================================
+---
 
 ### Dependencies
 yo-api
