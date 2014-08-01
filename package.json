@@ -1,0 +1,26 @@
+{
+  "name": "hubot-yo",
+  "version": "0.0.1",
+  "description": "Zero character hubot communication",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wbeard/hubot-yo"
+  },
+  "keywords": [
+    "hubot",
+    "hubot-plugin"
+  ],
+  "author": "William Beard (wbeard)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wbeard/hubot-yo/issues"
+  },
+  "homepage": "https://github.com/wbeard/hubot-yo",
+  "dependencies": {
+    "yo-api": "^0.2.0"
+  }
+}
