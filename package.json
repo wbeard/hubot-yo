@@ -3,9 +3,6 @@
   "version": "0.0.1",
   "description": "Zero character hubot communication",
   "main": "index.coffee",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/wbeard/hubot-yo"
@@ -21,6 +18,16 @@
   },
   "homepage": "https://github.com/wbeard/hubot-yo",
   "dependencies": {
+    "coffee-script": "^1.7.1",
     "yo-api": "^0.2.0"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.21.3",
+    "sinon": "^1.10.3",
+    "sinon-chai": "^2.5.0"
+  },
+  "scripts": {
+    "test": "script/test"
   }
 }
